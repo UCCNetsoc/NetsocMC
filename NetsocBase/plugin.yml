@@ -1,0 +1,7 @@
+name: NetsocBase
+main: co.netsoc.mc.base.NetsocBase
+version: 1.0.0
+authors: [Oisin Aylward]
+load: startup
+
+commands:
