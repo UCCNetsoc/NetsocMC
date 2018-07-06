@@ -21,7 +21,7 @@ public class AdminMode {
 				p.hidePlayer(NetsocBase.get(), player);
 			}
 		}
-		player.addPotionEffect(new PotionEffect(PotionEffectType.INVISIBILITY, 2, (int) Double.POSITIVE_INFINITY));
+		player.addPotionEffect(new PotionEffect(PotionEffectType.INVISIBILITY, 2, Integer.MAX_VALUE));
 		player.sendMessage(ChatColor.RED + "You have entered ADMIN MODE.");
 		inAdmin.add(player.getUniqueId());
 	}
